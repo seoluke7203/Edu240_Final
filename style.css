@@ -1,0 +1,369 @@
+@import url('https://fonts.googleapis.com/css?family=Lobster+Two');
+
+body {
+  background-color: black;
+}
+
+html {
+  overflow-x: hidden;
+}
+
+h1 {
+  font-family: 'Lobster Two', cursive;
+  font-size: 5rem;
+  text-shadow: 0px 1px 0px black;
+  color: #ffffff;
+}
+
+h2 {
+  font-family: 'Lobster Two';
+  font-size: 3rem;
+  text-shadow: 0px 1px 0px black;
+  color: #ffffff;
+  text-align: center;
+}
+
+ul {
+  font-family: 'Lobster Two', cursive;
+  font-size: 1.5rem;
+  text-shadow: 0px 1px 0px black;
+  color: #ffffff;
+}
+
+.title {
+  position: absolute;
+  z-index: 4;
+  background-repeat: no-repeat;
+  background-position: 1024px 0px, 0 0;
+  background-size: 2024px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  min-height: 100vh;
+  overflow: hidden;
+  margin: 0 auto;
+  margin-left: 45%;
+  animation: fadeOutUp 5s 7s;
+  animation-fill-mode: forwards;
+}
+
+.pulse {
+  z-index: -1;
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  max-width: 30rem;
+}
+.pulse circle {
+  fill: #ff5154;
+  transform: scale(0);
+  opacity: 0;
+  transform-origin: 50% 50%;
+  animation: pulse 3s cubic-bezier(0.5, 0.5, 0, 1);
+}
+.pulse circle:nth-child(2) {
+  fill: #7fc6a4;
+  animation: pulse 3s 1s cubic-bezier(0.5, 0.5, 0, 1);
+}
+.pulse circle:nth-child(3) {
+  fill: #e5f77d;
+  animation: pulse 3s 2s cubic-bezier(0.5, 0.5, 0, 1);
+}
+
+@keyframes pulse {
+  25% {
+    opacity: 0.4;
+  }
+  100% {
+    transform: scale(1);
+  }
+}
+
+.left-side-background {
+  width: auto;
+  height: fit-content;
+}
+
+.container img {
+  max-width: 100%;
+  width/***/: auto;
+  height: 1024px;
+  vertical-align: bottom;
+}
+
+.box {
+  position: relative;
+  height: 1024px;
+  width: 2048px;
+}
+
+.box .left {
+  position: relative;
+  left: 0%;
+  margin: 0;
+  z-index: 3;
+  object-fit: cover;
+  animation: fadeOuttoRight 10s 5s;
+  animation-fill-mode: forwards;
+}
+
+.box .left h2 {
+  position: absolute;
+  transform: translate(220px, 768px);
+  font-family: 'Lobster Two', cursive;
+  font-size: 4rem;
+  text-shadow: 0px 1px 0px black;
+  color: #7dcfb6;
+}
+
+.box .right {
+  position: relative;
+  left: 1024px;
+  z-index: 3;
+  top: -1024px;
+  object-fit: cover;
+  animation: fadeOuttoLeft 10s 5s;
+  animation-fill-mode: forwards;
+}
+
+.box .right h2 {
+  position: absolute;
+  transform: translate(220px, 768px);
+  font-family: 'Lobster Two', cursive;
+  font-size: 4rem;
+  text-shadow: 0px 1px 0px black;
+  color: #ee6c4d;
+}
+
+@keyframes fadeOuttoRight {
+  0% {
+    opacity: 1;
+    transform: translate3d(0, 0, 0);
+  }
+  100% {
+    opacity: 0;
+    transform: translateZ(0);
+    transform: translateX(-100%);
+  }
+}
+
+@keyframes fadeOuttoLeft {
+  0% {
+    opacity: 1;
+    transform: translateX(0);
+  }
+  100% {
+    opacity: 0;
+    transform: translateX(100%);
+  }
+}
+
+@keyframes fadeOutUp {
+  0% {
+    opacity: 1;
+    transform: translate3d(0, 0, 0);
+  }
+  to {
+    opacity: 0;
+    transform: translate3d(0, -100%, 0);
+  }
+}
+
+@keyframes fadeInUp {
+  0% {
+    opacity: 0;
+    transform: translate3d(0, 100%, 0);
+  }
+  to {
+    opacity: 1;
+    transform: translateZ(0);
+  }
+}
+
+label {
+  display: flex;
+  align-items: center;
+  position: relative;
+  top: 30px;
+  left: 30px;
+  transition: 0.5s;
+}
+
+.bookmark-btt {
+  border: none;
+  z-index: 3;
+  outline: none;
+  background-color: transparent;
+  font-size: 3rem;
+  position: absolute;
+  top: 20px;
+  font-family: 'Lobster Two', cursive;
+  font-size: 3rem;
+  text-shadow: 0px 1px 0px black;
+  color: #ffffff;
+}
+section {
+  background-color: #34495e;
+  height: 1024px;
+  color: #fff;
+  width: 300px;
+  padding-top: 80px;
+  padding-left: 0px;
+  position: absolute;
+  top: 0;
+  left: -300px;
+  bottom: 0;
+  transition: 1s ease;
+  z-index: 4;
+}
+
+section p {
+  margin-top: 320px;
+  margin-left: 20px;
+  margin-right: 20px;
+}
+
+.bookmark-lists {
+  padding-left: 45px;
+}
+.bookmark {
+  margin: 30px 0;
+}
+.bookmark:nth-child(1) {
+  margin-top: 50px;
+}
+.bookmark a {
+  color: #fff;
+  text-decoration: none;
+}
+
+.content {
+  position: absolute;
+  z-index: 2;
+  top: 31.5px;
+  width: 2024px;
+  height: 1024px;
+  margin-top: -23px;
+  background-color: orange;
+}
+
+.content h1 {
+  font-size: 100px;
+  margin-left: 300px;
+}
+
+.content p {
+  font-size: 30px;
+  width: 1700px;
+  color: #fff;
+  margin-left: 100px;
+}
+
+.navi {
+  position: absolute;
+  bottom: 100px;
+  left: 40%;
+}
+.btn_right {
+  position: relative;
+  background: transparent;
+  border: none;
+  margin-left: 50px;
+  left: 55%;
+  cursor: pointer;
+}
+.btn_right:hover {
+  filter: opacity(0.7) drop-shadow(0 0 0 white);
+}
+
+.btn_left {
+  position: relative;
+  left: 45%;
+  border: none;
+  background: transparent;
+  cursor: pointer;
+}
+.btn_left:hover {
+  filter: opacity(0.7) drop-shadow(0 0 0 white);
+}
+.navi img {
+  background-color: transparent;
+  width: 40px;
+  height: auto;
+}
+
+.cover_screen {
+  position: absolute;
+  top: 0px;
+  width: 2024px;
+  height: 1024px;
+  background-color: black;
+  z-index: 3;
+  animation: zoom-in 0.5s 8s;
+  animation-fill-mode: forwards;
+}
+
+@keyframes zoom-in {
+  0% {
+    transform: scale(1, 1);
+  }
+  50% {
+    opacity: 0.5;
+  }
+  100% {
+    opacity: 0;
+    transform: scale(1.5, 1.5);
+    z-index: -1;
+  }
+}
+
+.loader {
+  max-width: 15rem;
+  width: 100%;
+  height: auto;
+  stroke-linecap: round;
+  position: absolute;
+  top: 35%;
+  margin-left: 45%;
+}
+
+circle {
+  fill: none;
+  stroke-width: 3.5;
+  animation-name: preloader;
+  animation-duration: 2s;
+  animation-iteration-count: infinite;
+  animation-timing-function: ease-in-out;
+  transform-origin: 170px 170px;
+  will-change: transform;
+}
+circle:nth-of-type(1) {
+  stroke-dasharray: 550px;
+}
+circle:nth-of-type(2) {
+  stroke-dasharray: 500px;
+}
+circle:nth-of-type(3) {
+  stroke-dasharray: 450px;
+}
+circle:nth-of-type(4) {
+  stroke-dasharray: 300px;
+}
+circle:nth-of-type(1) {
+  animation-delay: -0.15s;
+}
+circle:nth-of-type(2) {
+  animation-delay: -0.3s;
+}
+circle:nth-of-type(3) {
+  animation-delay: -0.45s;
+}
+circle:nth-of-type(4) {
+  animation-delay: -0.6s;
+}
+@keyframes preloader {
+  50% {
+    transform: rotate(360deg);
+  }
+}

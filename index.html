@@ -1,0 +1,104 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>EDUC 240</title>
+    <link rel="stylesheet" type="text/css" href="style.css" />
+    <script src="script.js" defer></script>
+  </head>
+  <body>
+    <div class="title">
+      <h1>EDUC 240</h1>
+      <svg
+        class="pulse"
+        viewBox="0 0 1024 1024"
+        version="1.1"
+        xmlns="http://www.w3.org/2000/svg"
+        xmlns:xlink="http://www.w3.org/1999/xlink"
+      >
+        <circle id="Oval" cx="512" cy="512" r="512"></circle>
+        <circle id="Oval" cx="512" cy="512" r="512"></circle>
+        <circle id="Oval" cx="512" cy="512" r="512"></circle>
+      </svg>
+    </div>
+    <div class="container">
+      <div class="box">
+        <div class="left">
+          <h2>Banking Education</h2>
+          <img src="banking_education.png" />
+        </div>
+        <div class="right">
+          <h2>Problem Posing</h2>
+          <img src="problem_posing.png" />
+        </div>
+      </div>
+    </div>
+    <div class = "banking_idea">
+      <lable>
+        <input type = "button" value="Menu" class ="bookmark-btt">
+        </lable>
+        <section>
+          <h2> Menu</h2>
+          <ul class = "Bookmark-lists">
+            <li class="bookmark"><a href="javascript:getShow(0);">Introduction</a></li>
+            <li class="bookmark"><a href="javascript:getShow(1);">Banking Education</a></li>
+            <li class="bookmark"><a href="javascript:getShow(2);">Problem Posing Education</a></li>
+            <li class="bookmark"><a href="javascript:getShow(3);">Conclusion</a></li>
+            <li class="bookmark"><a href="javascript:getShow(4);">References</a></li>
+          </ul>
+          <p>Here is a box for basic information to be added</p>
+        </section>
+
+        <div class="content">
+          <div class="content0" style ="display: block;">
+            <h1> Introduction</h1>
+            <p> Lorem, ipsum dolor sit amet consectetur adipisicing elit. Error voluptatem laborum, velit eos sunt quasi sint eligendi! Sunt accusantium veniam molestiae distinctio eos sequi, assumenda, et vel earum quae commodi. Lorem ipsum dolor sit amet consectetur adipisicing elit. Architecto, rem rerum aperiam, quasi et ratione est esse adipisci explicabo officiis autem ab exercitationem accusantium harum ipsum quae facere, doloremque ullam? Lorem ipsum dolor sit amet consectetur adipisicing elit. Eos velit recusandae neque mollitia officia. Nostrum, non fugiat? Aliquid, dolorem, eos exercitationem quisquam ducimus dolore dicta iusto repellendus sequi facere debitis. Lorem ipsum dolor sit amet consectetur adipisicing elit. Molestiae consequuntur a nam nostrum fuga quis maiores praesentium numquam. Placeat voluptates distinctio possimus quisquam odio eveniet laudantium delectus explicabo repudiandae similique?</p>
+            <div class="navi">
+            <button type="button" class = "btn_left" onclick="getShow(1)"><img src="left.png"></button>
+            <button type="button" class = "btn_right" onclick="getShow(2)"><img src="right.png"></button>
+            </div> 
+          </div>
+          <div class="content1" style ="display: none;">
+            <h1> Banking Education</h1>
+            <p> Lorem, ipsum dolor sit amet consectetur adipisicing elit. Error voluptatem laborum, velit eos sunt quasi sint eligendi! Sunt accusantium veniam molestiae distinctio eos sequi, assumenda, et vel earum quae commodi. Lorem ipsum dolor sit amet consectetur adipisicing elit. Architecto, rem rerum aperiam, quasi et ratione est esse adipisci explicabo officiis autem ab exercitationem accusantium harum ipsum quae facere, doloremque ullam? Lorem ipsum dolor sit amet consectetur adipisicing elit. Eos velit recusandae neque mollitia officia. Nostrum, non fugiat? Aliquid, dolorem, eos exercitationem quisquam ducimus dolore dicta iusto repellendus sequi facere debitis. Lorem ipsum dolor sit amet consectetur adipisicing elit. Molestiae consequuntur a nam nostrum fuga quis maiores praesentium numquam. Placeat voluptates distinctio possimus quisquam odio eveniet laudantium delectus explicabo repudiandae similique?</p>
+            <div class="navi">
+              <button type="button" class = "btn_left" onclick="getShow(0)"> <img src="left.png"></button>
+              <button type="button" class = "btn_right" onclick="getShow(2)"> <img src="right.png"></button>
+              </div>
+          </div>
+          <div class="content2" style ="display: none;">
+            <h1> Problem Posing Education</h1>
+            <p> Lorem, ipsum dolor sit amet consectetur adipisicing elit. Error voluptatem laborum, velit eos sunt quasi sint eligendi! Sunt accusantium veniam molestiae distinctio eos sequi, assumenda, et vel earum quae commodi. Lorem ipsum dolor sit amet consectetur adipisicing elit. Architecto, rem rerum aperiam, quasi et ratione est esse adipisci explicabo officiis autem ab exercitationem accusantium harum ipsum quae facere, doloremque ullam? Lorem ipsum dolor sit amet consectetur adipisicing elit. Eos velit recusandae neque mollitia officia. Nostrum, non fugiat? Aliquid, dolorem, eos exercitationem quisquam ducimus dolore dicta iusto repellendus sequi facere debitis. Lorem ipsum dolor sit amet consectetur adipisicing elit. Molestiae consequuntur a nam nostrum fuga quis maiores praesentium numquam. Placeat voluptates distinctio possimus quisquam odio eveniet laudantium delectus explicabo repudiandae similique?</p>
+            <div class="navi">
+              <button type="button" class = "btn_left" onclick="getShow(1)" > <img src="left.png"></button>
+              <button type="button" class = "btn_right" onclick="getShow(3)"> <img src="right.png"></button>
+              </div>
+          </div>
+          <div class="content3" style ="display: none;">
+            <h1> Conclusion</h1>
+            <p> Lorem, ipsum dolor sit amet consectetur adipisicing elit. Error voluptatem laborum, velit eos sunt quasi sint eligendi! Sunt accusantium veniam molestiae distinctio eos sequi, assumenda, et vel earum quae commodi. Lorem ipsum dolor sit amet consectetur adipisicing elit. Architecto, rem rerum aperiam, quasi et ratione est esse adipisci explicabo officiis autem ab exercitationem accusantium harum ipsum quae facere, doloremque ullam? Lorem ipsum dolor sit amet consectetur adipisicing elit. Eos velit recusandae neque mollitia officia. Nostrum, non fugiat? Aliquid, dolorem, eos exercitationem quisquam ducimus dolore dicta iusto repellendus sequi facere debitis. Lorem ipsum dolor sit amet consectetur adipisicing elit. Molestiae consequuntur a nam nostrum fuga quis maiores praesentium numquam. Placeat voluptates distinctio possimus quisquam odio eveniet laudantium delectus explicabo repudiandae similique?</p>
+            <div class="navi">
+              <button type="button" class = "btn_left" onclick="getShow(2)"> <img src="left.png"></button>
+              <button type="button" class = "btn_right" onclick="getShow(4)"> <img src="right.png"></button>
+              </div>
+          </div>
+          <div class="content4" style ="display: none;">
+            <h1> References</h1>
+            <p> Lorem, ipsum dolor sit amet consectetur adipisicing elit. Error voluptatem laborum, velit eos sunt quasi sint eligendi! Sunt accusantium veniam molestiae distinctio eos sequi, assumenda, et vel earum quae commodi. Lorem ipsum dolor sit amet consectetur adipisicing elit. Architecto, rem rerum aperiam, quasi et ratione est esse adipisci explicabo officiis autem ab exercitationem accusantium harum ipsum quae facere, doloremque ullam? Lorem ipsum dolor sit amet consectetur adipisicing elit. Eos velit recusandae neque mollitia officia. Nostrum, non fugiat? Aliquid, dolorem, eos exercitationem quisquam ducimus dolore dicta iusto repellendus sequi facere debitis. Lorem ipsum dolor sit amet consectetur adipisicing elit. Molestiae consequuntur a nam nostrum fuga quis maiores praesentium numquam. Placeat voluptates distinctio possimus quisquam odio eveniet laudantium delectus explicabo repudiandae similique?</p>
+            <div class="navi">
+              <button type="button" class = "btn_left" onclick="getShow(3)"> <img src="left.png"></button>
+              <button type="button" class = "btn_right" onclick="getShow(1)"> <img src="right.png"></button>
+              </div>    
+          </div>
+          <div class = "cover_screen">
+            <svg class="loader" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 340 340">
+              <circle cx="170" cy="170" r="160" stroke="#E2007C"/>
+              <circle cx="170" cy="170" r="135" stroke="#404041"/>
+              <circle cx="170" cy="170" r="110" stroke="#E2007C"/>
+              <circle cx="170" cy="170" r="85" stroke="#404041"/>
+            </svg>
+        </div>
+    </body>
+</html>
