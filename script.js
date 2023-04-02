@@ -14,16 +14,25 @@ bookBtn.addEventListener('blur', function () {
 
 const li = document.querySelectorAll('.Bookmark-lists li');
 
-// for (let i = 0; i < li.length; i++) {
-//   li[i].addEventListener('click', (e) => {
-//     console.log(e.target.innerText);
-//   });
-
 function getShow(id) {
   document.getElementsByClassName('content0')[0].style.display = 'none';
   document.getElementsByClassName('content1')[0].style.display = 'none';
   document.getElementsByClassName('content2')[0].style.display = 'none';
   document.getElementsByClassName('content3')[0].style.display = 'none';
   document.getElementsByClassName('content4')[0].style.display = 'none';
+  document.getElementsByClassName('content5')[0].style.display = 'none';
+  document.getElementsByClassName('content6')[0].style.display = 'none';
+  document.getElementsByClassName('content7')[0].style.display = 'none';
+  document.getElementsByClassName('content8')[0].style.display = 'none';
+  document.getElementsByClassName('content9')[0].style.display = 'none';
+  document.getElementsByClassName('content10')[0].style.display = 'none';
+  document.getElementsByClassName('content11')[0].style.display = 'none';
+  document.getElementsByClassName('content12')[0].style.display = 'none';
   document.getElementsByClassName('content' + id)[0].style.display = '';
+}
+
+function showAlert() {
+  alert(
+    'Sorry, there is no previous page to navigate to.   You are currently on the first page.'
+  );
 }
