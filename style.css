@@ -279,6 +279,12 @@ section p {
   margin-left: 300px;
 }
 
+.content h2 {
+  font-size: 40px;
+  text-align: right;
+  margin-right: 200px;
+}
+
 .content p {
   float: left;
   font-size: 25px;
@@ -299,7 +305,7 @@ section p {
 
 .navi {
   position: absolute;
-  bottom: 0px;
+  bottom: -10px;
   left: 40%;
 }
 .btn_right {
@@ -403,4 +409,77 @@ circle:nth-of-type(4) {
   50% {
     transform: rotate(360deg);
   }
+}
+
+.content1 h2 {
+  font-size: 40px;
+  text-align: right;
+  margin-right: 200px;
+}
+.content1 h1 {
+  margin-top: -20px;
+  text-align: center;
+  margin-left: -10px;
+}
+.content1 .paulo {
+  width: 450px;
+  height: auto;
+  margin-top: 50px;
+  margin-left: 100px;
+}
+.content1 .paulo_desc {
+  text-align: right;
+  margin-left: 670px;
+  margin-top: -100px;
+}
+
+.content2 h2 {
+  font-size: 40px;
+  text-align: right;
+  margin-right: 200px;
+}
+.content2 h1 {
+  margin-top: -20px;
+  text-align: center;
+  margin-left: -10px;
+}
+.content3 h1 {
+  font-size: 75px;
+  padding-bottom: 50px;
+}
+
+.content4 h1 {
+  font-size: 75px;
+  padding-bottom: 50px;
+}
+
+.content5 h1 {
+  font-size: 75px;
+  padding-bottom: 50px;
+}
+.content6 h1 {
+  margin-top: -20px;
+  text-align: center;
+  margin-left: -10px;
+}
+.content7 h1 {
+  margin-top: -20px;
+  text-align: center;
+  margin-left: -10px;
+}
+.content8 h1 {
+  font-size: 75px;
+  padding-bottom: 50px;
+}
+.content9 h1 {
+  font-size: 75px;
+  padding-bottom: 50px;
+}
+.content10 h1 {
+  font-size: 75px;
+  padding-bottom: 50px;
+}
+.content11 h1 {
+  font-size: 75px;
+  padding-bottom: 50px;
 }

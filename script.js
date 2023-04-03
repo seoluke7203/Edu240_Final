@@ -32,7 +32,9 @@ function getShow(id) {
 }
 
 function showAlert() {
-  alert(
-    'Sorry, there is no previous page to navigate to.   You are currently on the first page.'
-  );
+  Swal.fire({
+    icon: 'error',
+    title: 'Error',
+    text: 'Sorry, there is no previous page to navigate to. You are currently on the first page.',
+  });
 }
