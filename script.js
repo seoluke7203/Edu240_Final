@@ -38,3 +38,10 @@ function showAlert() {
     text: 'Sorry, there is no previous page to navigate to. You are currently on the first page.',
   });
 }
+function showAlert2() {
+  Swal.fire({
+    icon: 'error',
+    title: 'Error',
+    text: 'Sorry, there is no next page to navigate to. You are currently on the last page.',
+  });
+}
