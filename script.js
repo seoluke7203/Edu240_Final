@@ -45,3 +45,9 @@ function showAlert2() {
     text: 'Sorry, there is no next page to navigate to. You are currently on the last page.',
   });
 }
+
+var cover_screen = document.getElementsByClassName('cover_screen');
+setTimeout(function () {
+  document.getElementsByClassName('cover_screen')[0].style.display = 'none';
+  document.getElementsByClassName('right')[0].style.display = 'none';
+}, 10000);
