@@ -5,7 +5,7 @@ body {
 }
 
 html {
-  /* overflow-x: hidden; */
+  overflow-x: hidden;
 }
 
 .title h1 {
@@ -283,6 +283,9 @@ section p {
   font-size: 40px;
   text-align: right;
   margin-right: 200px;
+  color: #7dcfb6;
+  text-shadow: 0 0 7px #7dcfb6, 0 0 10px black, 0 0 21px #7dcfb6, 0 0 42px #0fa,
+    0 0 82px #7dcfb6, 0 0 82px #7dcfb6;
 }
 
 .content p {
@@ -444,9 +447,22 @@ circle:nth-of-type(4) {
   text-align: center;
   margin-left: -10px;
 }
+
+.content2 .studying {
+  width: 600px;
+  height: 600px;
+  margin-top: 70px;
+  margin-left: 50px;
+}
+
 .content3 h1 {
-  font-size: 75px;
-  padding-bottom: 50px;
+  font-size: 60px;
+  padding-bottom: 30px;
+  padding-top: 30px;
+}
+
+.content3 p {
+  width: 1800px;
 }
 
 .content4 h1 {
@@ -455,31 +471,120 @@ circle:nth-of-type(4) {
 }
 
 .content5 h1 {
-  font-size: 75px;
-  padding-bottom: 50px;
+  font-size: 60px;
+  padding-bottom: 70px;
 }
+
+.content5 p {
+  width: 1600px;
+}
+
+.content6 h2 {
+  font-size: 40px;
+  text-align: right;
+  margin-right: 200px;
+  color: #ee6c4d;
+  text-shadow: 0 0 7px #ee6c4d, 0 0 10px black, 0 0 21px #ee6c4d,
+    0 0 42px #ee6c4d, 0 0 82px #ee6c4d;
+}
+
 .content6 h1 {
   margin-top: -20px;
   text-align: center;
   margin-left: -10px;
 }
+
+.content6 .teaching {
+  width: 600px;
+  height: 600px;
+  margin-top: 70px;
+  margin-left: 50px;
+}
+
+.content7 h2 {
+  font-size: 40px;
+  text-align: right;
+  margin-right: 200px;
+  color: #ee6c4d;
+  text-shadow: 0 0 7px #ee6c4d, 0 0 10px black, 0 0 21px #ee6c4d,
+    0 0 42px #ee6c4d, 0 0 82px #ee6c4d;
+}
+
 .content7 h1 {
   margin-top: -20px;
   text-align: center;
   margin-left: -10px;
 }
+
+.content7 .thinking {
+  width: 600px;
+  height: 600px;
+  margin-top: 70px;
+  margin-left: 50px;
+}
 .content8 h1 {
   font-size: 75px;
   padding-bottom: 50px;
 }
+
+.content8 h2 {
+  font-size: 40px;
+  text-align: right;
+  margin-right: 200px;
+  color: #ee6c4d;
+  text-shadow: 0 0 7px #ee6c4d, 0 0 10px black, 0 0 21px #ee6c4d,
+    0 0 42px #ee6c4d, 0 0 82px #ee6c4d;
+}
+
+.content8 .thinking {
+  width: 600px;
+  height: 600px;
+  margin-top: -30px;
+  margin-left: 50px;
+}
+
+.content9 h2 {
+  font-size: 40px;
+  text-align: right;
+  margin-right: 200px;
+  color: #ee6c4d;
+  text-shadow: 0 0 7px #ee6c4d, 0 0 10px black, 0 0 21px #ee6c4d,
+    0 0 42px #ee6c4d, 0 0 82px #ee6c4d;
+}
+
 .content9 h1 {
   font-size: 75px;
   padding-bottom: 50px;
 }
+
+.content9 .thinking {
+  width: 600px;
+  height: 600px;
+  margin-top: -30px;
+  margin-left: 50px;
+}
+
+.content10 h2 {
+  font-size: 40px;
+  text-align: right;
+  margin-right: 200px;
+  color: #ee6c4d;
+  text-shadow: 0 0 7px #ee6c4d, 0 0 10px black, 0 0 21px #ee6c4d,
+    0 0 42px #ee6c4d, 0 0 82px #ee6c4d;
+}
+
 .content10 h1 {
   font-size: 75px;
   padding-bottom: 50px;
 }
+
+.content10 .thinking {
+  width: 600px;
+  height: 600px;
+  margin-top: -30px;
+  margin-left: 50px;
+}
+
 .content11 h1 {
   font-size: 75px;
   padding-bottom: 50px;
@@ -494,11 +599,21 @@ circle:nth-of-type(4) {
   margin-top: -30px;
 }
 
+.content12 h1 {
+  position: absolute;
+  top: 20px;
+}
+
+.content12 h2 {
+  color: white;
+  text-shadow: none;
+}
+
 .content12 p {
   float: left;
   font-size: 15px;
   width: 1600px;
   color: #fff;
   margin-left: 100px;
-  margin-top: -30px;
+  margin-top: 50px;
 }
