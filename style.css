@@ -150,6 +150,7 @@ ul {
   transform: translate(220px, 768px);
   font-family: 'Karla', sans-serif;
   font-size: 4rem;
+
   color: #ee6c4d;
   text-shadow: 0 0 7px #ee6c4d, 0 0 10px black, 0 0 21px #ee6c4d,
     0 0 42px #ee6c4d, 0 0 82px #ee6c4d;
@@ -283,9 +284,10 @@ section p {
   font-size: 40px;
   text-align: right;
   margin-right: 200px;
-  color: #7dcfb6;
-  text-shadow: 0 0 7px #7dcfb6, 0 0 10px black, 0 0 21px #7dcfb6, 0 0 42px #0fa,
-    0 0 82px #7dcfb6, 0 0 82px #7dcfb6;
+
+  color: #ee6c4d;
+  text-shadow: 0 0 7px #ee6c4d, 0 0 10px black, 0 0 21px #ee6c4d,
+    0 0 42px #ee6c4d, 0 0 82px #ee6c4d;
 }
 
 .content p {
@@ -483,9 +485,9 @@ circle:nth-of-type(4) {
   font-size: 40px;
   text-align: right;
   margin-right: 200px;
-  color: #ee6c4d;
-  text-shadow: 0 0 7px #ee6c4d, 0 0 10px black, 0 0 21px #ee6c4d,
-    0 0 42px #ee6c4d, 0 0 82px #ee6c4d;
+  color: #7dcfb6;
+  text-shadow: 0 0 7px #7dcfb6, 0 0 10px black, 0 0 21px #7dcfb6, 0 0 42px #0fa,
+    0 0 42px #7dcfb6, 0 0 82px #7dcfb6;
 }
 
 .content6 h1 {
@@ -505,9 +507,9 @@ circle:nth-of-type(4) {
   font-size: 40px;
   text-align: right;
   margin-right: 200px;
-  color: #ee6c4d;
-  text-shadow: 0 0 7px #ee6c4d, 0 0 10px black, 0 0 21px #ee6c4d,
-    0 0 42px #ee6c4d, 0 0 82px #ee6c4d;
+  color: #7dcfb6;
+  text-shadow: 0 0 7px #7dcfb6, 0 0 10px black, 0 0 21px #7dcfb6, 0 0 42px #0fa,
+    0 0 42px #7dcfb6, 0 0 82px #7dcfb6;
 }
 
 .content7 h1 {
@@ -531,9 +533,9 @@ circle:nth-of-type(4) {
   font-size: 40px;
   text-align: right;
   margin-right: 200px;
-  color: #ee6c4d;
-  text-shadow: 0 0 7px #ee6c4d, 0 0 10px black, 0 0 21px #ee6c4d,
-    0 0 42px #ee6c4d, 0 0 82px #ee6c4d;
+  color: #7dcfb6;
+  text-shadow: 0 0 7px #7dcfb6, 0 0 10px black, 0 0 21px #7dcfb6, 0 0 42px #0fa,
+    0 0 42px #7dcfb6, 0 0 82px #7dcfb6;
 }
 
 .content8 .thinking {
@@ -547,9 +549,9 @@ circle:nth-of-type(4) {
   font-size: 40px;
   text-align: right;
   margin-right: 200px;
-  color: #ee6c4d;
-  text-shadow: 0 0 7px #ee6c4d, 0 0 10px black, 0 0 21px #ee6c4d,
-    0 0 42px #ee6c4d, 0 0 82px #ee6c4d;
+  color: #7dcfb6;
+  text-shadow: 0 0 7px #7dcfb6, 0 0 10px black, 0 0 21px #7dcfb6, 0 0 42px #0fa,
+    0 0 42px #7dcfb6, 0 0 82px #7dcfb6;
 }
 
 .content9 h1 {
@@ -568,9 +570,9 @@ circle:nth-of-type(4) {
   font-size: 40px;
   text-align: right;
   margin-right: 200px;
-  color: #ee6c4d;
-  text-shadow: 0 0 7px #ee6c4d, 0 0 10px black, 0 0 21px #ee6c4d,
-    0 0 42px #ee6c4d, 0 0 82px #ee6c4d;
+  color: #7dcfb6;
+  text-shadow: 0 0 7px #7dcfb6, 0 0 10px black, 0 0 21px #7dcfb6, 0 0 42px #0fa,
+    0 0 42px #7dcfb6, 0 0 82px #7dcfb6;
 }
 
 .content10 h1 {
