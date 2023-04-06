@@ -130,9 +130,10 @@ ul {
   transform: translate(220px, 768px);
   font-family: 'Karla', sans-serif;
   font-size: 4rem;
-  color: #7dcfb6;
-  text-shadow: 0 0 7px #7dcfb6, 0 0 10px black, 0 0 21px #7dcfb6, 0 0 42px #0fa,
-    0 0 82px #7dcfb6, 0 0 82px #7dcfb6;
+
+  color: #ee6c4d;
+  text-shadow: 0 0 7px #ee6c4d, 0 0 10px black, 0 0 21px #ee6c4d,
+    0 0 42px #ee6c4d, 0 0 82px #ee6c4d;
 }
 
 .box .right {
@@ -151,9 +152,9 @@ ul {
   font-family: 'Karla', sans-serif;
   font-size: 4rem;
 
-  color: #ee6c4d;
-  text-shadow: 0 0 7px #ee6c4d, 0 0 10px black, 0 0 21px #ee6c4d,
-    0 0 42px #ee6c4d, 0 0 82px #ee6c4d;
+  color: #7dcfb6;
+  text-shadow: 0 0 7px #7dcfb6, 0 0 10px black, 0 0 21px #7dcfb6, 0 0 42px #0fa,
+    0 0 82px #7dcfb6, 0 0 82px #7dcfb6;
 }
 
 @keyframes fadeOuttoRight {
